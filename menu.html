@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <title>Menu - Anaaj Foods</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🍛</span>
+                <span class="logo-text">Anaaj Foods</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/81878e90-359a-43ee-a139-ef6af1628199.png" alt="Menu Background" class="page-header-bg">
+        <div class="page-header-content">
+            <h1>Our Menu</h1>
+            <p>Discover the authentic flavors of Bihar</p>
+        </div>
+    </section>
+
+    <!-- Menu Filter -->
+    <section class="menu-section section">
+        <div class="container">
+            <div class="menu-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="starters">Starters</button>
+                <button class="filter-btn" data-category="main-course">Main Course</button>
+                <button class="filter-btn" data-category="biryani">Biryani</button>
+                <button class="filter-btn" data-category="desserts">Desserts</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button>
+            </div>
+
+            <!-- Starters -->
+            <div class="menu-category" id="starters">
+                <h2 class="category-title"><span>🥗</span> Starters</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Paneer Tikka</h3>
+                                <span class="menu-item-price">₹249</span>
+                            </div>
+                            <p>Marinated cottage cheese cubes grilled in tandoor with bell peppers and onions</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Chicken Seekh Kebab</h3>
+                                <span class="menu-item-price">₹279</span>
+                            </div>
+                            <p>Minced chicken skewers seasoned with aromatic spices, grilled over charcoal</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Aloo Tikki Chaat</h3>
+                                <span class="menu-item-price">₹149</span>
+                            </div>
+                            <p>Crispy potato patties topped with yogurt, tamarind chutney, and crunchy sev</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Fish Amritsari</h3>
+                                <span class="menu-item-price">₹299</span>
+                            </div>
+                            <p>Crispy battered fish fillets with ajwain and spices, served with green chutney</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Litti Chokha</h3>
+                                <span class="menu-item-price">₹179</span>
+                            </div>
+                            <p>Traditional Bihari roasted wheat balls stuffed with sattu, served with mashed vegetables</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Mutton Galouti Kebab</h3>
+                                <span class="menu-item-price">₹349</span>
+                            </div>
+                            <p>Melt-in-mouth minced mutton kebabs with over 100 spices, a royal delicacy</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Course -->
+            <div class="menu-category" id="main-course">
+                <h2 class="category-title"><span>🍛</span> Main Course</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Butter Chicken</h3>
+                                <span class="menu-item-price">₹329</span>
+                            </div>
+                            <p>Tender chicken in rich, creamy tomato-butter gravy with aromatic spices</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Dal Makhani</h3>
+                                <span class="menu-item-price">₹229</span>
+                            </div>
+                            <p>Slow-cooked black lentils in a creamy, buttery gravy, simmered overnight</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Mutton Rogan Josh</h3>
+                                <span class="menu-item-price">₹399</span>
+                            </div>
+                            <p>Aromatic Kashmiri-style mutton curry with rich red gravy and whole spices</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Paneer Butter Masala</h3>
+                                <span class="menu-item-price">₹269</span>
+                            </div>
+                            <p>Soft paneer cubes in a velvety tomato-cashew gravy with a hint of sweetness</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Fish Curry (Maacher Jhol)</h3>
+                                <span class="menu-item-price">₹349</span>
+                            </div>
+                            <p>Traditional Bengali-style fish curry with mustard and turmeric, a Bihar favorite</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="main-course">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Chana Masala</h3>
+                                <span class="menu-item-price">₹199</span>
+                            </div>
+                            <p>Spiced chickpea curry with tangy tomato gravy, a hearty vegetarian classic</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biryani -->
+            <div class="menu-category" id="biryani">
+                <h2 class="category-title"><span>🍚</span> Biryani</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="biryani">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Chicken Dum Biryani</h3>
+                                <span class="menu-item-price">₹349</span>
+                            </div>
+                            <p>Slow-cooked aromatic basmati rice with tender chicken, saffron, and whole spices</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="biryani">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Mutton Biryani</h3>
+                                <span class="menu-item-price">₹429</span>
+                            </div>
+                            <p>Rich and flavorful mutton biryani with caramelized onions and mint leaves</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="biryani">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Veg Hyderabadi Biryani</h3>
+                                <span class="menu-item-price">₹279</span>
+                            </div>
+                            <p>Fragrant vegetable biryani with mixed vegetables, paneer, and aromatic spices</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="biryani">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Egg Biryani</h3>
+                                <span class="menu-item-price">₹249</span>
+                            </div>
+                            <p>Flavorful rice with boiled eggs marinated in spices, a simple yet delicious choice</p>
+                            <span class="menu-item-tag non-veg">Non-Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" id="desserts">
+                <h2 class="category-title"><span>🍮</span> Desserts</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Gulab Jamun</h3>
+                                <span class="menu-item-price">₹149</span>
+                            </div>
+                            <p>Golden fried milk dumplings soaked in rose-scented sugar syrup with pistachios</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Rasmalai</h3>
+                                <span class="menu-item-price">₹179</span>
+                            </div>
+                            <p>Soft paneer discs in saffron-infused sweetened milk, garnished with almonds</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Kheer</h3>
+                                <span class="menu-item-price">₹129</span>
+                            </div>
+                            <p>Traditional rice pudding slow-cooked with milk, cardamom, and dry fruits</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="desserts">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Malpua</h3>
+                                <span class="menu-item-price">₹159</span>
+                            </div>
+                            <p>Traditional Bihari sweet pancakes dipped in sugar syrup, served with rabri</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-category" id="drinks">
+                <h2 class="category-title"><span>🥤</span> Drinks</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Mango Lassi</h3>
+                                <span class="menu-item-price">₹129</span>
+                            </div>
+                            <p>Creamy yogurt blended with fresh Alphonso mango pulp, a refreshing classic</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="drinks">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Masala Chai</h3>
+                                <span class="menu-item-price">₹79</span>
+                            </div>
+                            <p>Authentic Indian spiced tea brewed with ginger, cardamom, and fresh milk</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="drinks">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Sattu Sharbat</h3>
+                                <span class="menu-item-price">₹99</span>
+                            </div>
+                            <p>Traditional Bihari energy drink made from roasted gram flour with lemon and spices</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="drinks">
+                        <div class="menu-item-info">
+                            <div class="menu-item-header">
+                                <h3>Fresh Lime Soda</h3>
+                                <span class="menu-item-price">₹89</span>
+                            </div>
+                            <p>Refreshing lime juice with soda water, available sweet or salted</p>
+                            <span class="menu-item-tag veg">Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍛</span>
+                        <span class="logo-text">Anaaj Foods</span>
+                    </div>
+                    <p>Serving the finest Indian cuisine in Patna since 2011. Where tradition meets taste.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Opening Hours</h4>
+                    <ul class="hours-list">
+                        <li><span>Monday - Friday</span><span>11:00 AM - 11:00 PM</span></li>
+                        <li><span>Saturday</span><span>10:00 AM - 11:30 PM</span></li>
+                        <li><span>Sunday</span><span>10:00 AM - 10:00 PM</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>📍 Boring Road, Patna, Bihar 800001</li>
+                        <li>📞 +91 612-234-5678</li>
+                        <li>✉️ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="95fcfbf3fad5f4fbf4f4fff3fafaf1e6bbf6faf8">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anaaj Foods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>

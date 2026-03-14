@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <title>Anaaj Foods - Fresh Taste of Patna</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🍛</span>
+                <span class="logo-text">Anaaj Foods</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/65fb167b-4da6-4f12-8b42-5c21beb3743d.png" alt="Anaaj Foods Restaurant Interior" class="hero-bg">
+        <div class="hero-content">
+            <h1 class="hero-title">Anaaj Foods</h1>
+            <p class="hero-tagline">Fresh Taste of Patna</p>
+            <p class="hero-subtitle">Experience the authentic flavors of Bihar with a modern twist</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
+                <a href="contact.html" class="btn btn-outline">Reserve a Table</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro section" id="intro">
+        <div class="container">
+            <div class="intro-grid">
+                <div class="intro-image">
+                    <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/8550747c-c05b-4651-9378-f214de51db17.png" alt="Restaurant Ambiance" loading="lazy">
+                </div>
+                <div class="intro-text">
+                    <span class="section-label">Welcome to Anaaj Foods</span>
+                    <h2 class="section-title">Where Tradition Meets Taste</h2>
+                    <p>Nestled in the heart of Patna, Anaaj Foods brings you the finest Indian cuisine crafted with love and tradition. Our chefs blend age-old recipes with contemporary techniques to create dishes that delight every palate.</p>
+                    <p>From aromatic biryanis to sizzling tikkas, every dish tells a story of Bihar's rich culinary heritage. We source the freshest ingredients locally to ensure every bite is a celebration of flavor.</p>
+                    <a href="about.html" class="btn btn-primary">Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes Section -->
+    <section class="featured section" id="featured">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Specialties</span>
+                <h2 class="section-title">Featured Dishes</h2>
+                <p class="section-desc">Handpicked favorites from our kitchen, crafted to perfection</p>
+            </div>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-card-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/81878e90-359a-43ee-a139-ef6af1628199.png" alt="Signature Biryani" loading="lazy">
+                        <span class="featured-badge">Chef's Special</span>
+                    </div>
+                    <div class="featured-card-content">
+                        <h3>Signature Biryani</h3>
+                        <p>Aromatic basmati rice layered with tender meat, saffron, and secret spices. A Patna classic.</p>
+                        <div class="featured-card-footer">
+                            <span class="price">₹349</span>
+                            <a href="menu.html" class="btn btn-small">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-card-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/2e77b5ba-459a-4a7f-8da4-43b25c1b14cb.png" alt="Paneer Tikka" loading="lazy">
+                        <span class="featured-badge">Bestseller</span>
+                    </div>
+                    <div class="featured-card-content">
+                        <h3>Paneer Tikka</h3>
+                        <p>Marinated cottage cheese grilled to smoky perfection, served with mint chutney.</p>
+                        <div class="featured-card-footer">
+                            <span class="price">₹249</span>
+                            <a href="menu.html" class="btn btn-small">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-card-image">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/da49d374-9053-47ed-be96-33a9d3f161a8.png" alt="Gulab Jamun" loading="lazy">
+                        <span class="featured-badge">Must Try</span>
+                    </div>
+                    <div class="featured-card-content">
+                        <h3>Gulab Jamun</h3>
+                        <p>Golden fried dumplings soaked in rose-scented sugar syrup, garnished with pistachios.</p>
+                        <div class="featured-card-footer">
+                            <span class="price">₹149</span>
+                            <a href="menu.html" class="btn btn-small">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label">Years of Excellence</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="120">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label">Menu Items</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50000">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label">Happy Customers</p>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="25">0</span>
+                    <span class="stat-suffix">+</span>
+                    <p class="stat-label">Expert Chefs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What People Say</span>
+                <h2 class="section-title">Customer Testimonials</h2>
+                <p class="section-desc">Hear from our valued guests about their dining experience</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The biryani at Anaaj Foods is hands down the best in Patna! The flavors are rich and authentic. My family's go-to restaurant for every celebration."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">RK</div>
+                        <div>
+                            <h4>Rajesh Kumar</h4>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Amazing ambiance and even better food! The paneer tikka is to die for. The staff is incredibly warm and welcoming. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">PS</div>
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span>Food Blogger</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Every dish we tried was exceptional. The desserts are heavenly — the gulab jamun melts in your mouth. A true gem in Patna's food scene!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AM</div>
+                        <div>
+                            <h4>Amit Mishra</h4>
+                            <span>Food Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-overlay"></div>
+        <img src="https://mgx-backend-cdn.metadl.com/generate/images/1026342/2026-03-14/65fb167b-4da6-4f12-8b42-5c21beb3743d.png" alt="Restaurant Background" class="cta-bg">
+        <div class="container cta-content">
+            <h2>Ready for an Unforgettable Dining Experience?</h2>
+            <p>Book your table today and let us treat you to the finest flavors of Patna</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Reserve Your Table</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍛</span>
+                        <span class="logo-text">Anaaj Foods</span>
+                    </div>
+                    <p>Serving the finest Indian cuisine in Patna since 2011. Where tradition meets taste.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Opening Hours</h4>
+                    <ul class="hours-list">
+                        <li><span>Monday - Friday</span><span>11:00 AM - 11:00 PM</span></li>
+                        <li><span>Saturday</span><span>10:00 AM - 11:30 PM</span></li>
+                        <li><span>Sunday</span><span>10:00 AM - 10:00 PM</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>📍 Boring Road, Patna, Bihar 800001</li>
+                        <li>📞 +91 612-234-5678</li>
+                        <li>✉️ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7811161e173819161919121e17171c0b561b1715">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anaaj Foods. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
